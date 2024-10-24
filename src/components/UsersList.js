@@ -35,25 +35,18 @@ const UsersList = () =>{
     else{
         content =  data.map((user) =>{
             return <UsersListItem key={user.id} user={user}/>
-            // return (
-            //     <div key={user.id} className="mb-2 border rounded">
-            //         <div className="flex p-2 justify-between items-center cursor-pointer">
-            //             {user.name}
-            //         </div>
-            //     </div>
-            // )
         })
     }
-
-    return <div>
-        <div className="flex flex-row justify-between items-center m-3">
-            <h1 className="m-2 text-xl">Users</h1>
-            <Button loading={isCreatingUser} onClick={handleUserAdd}>+ Add User</Button>
-            { creatingUserError && 'Error Creating User' }
-        </div>
+    return (
+        <>
+            <div className="flex flex-row justify-between items-center m-3">
+                <h1 className="m-2 text-xl">Users</h1>
+                <Button loading={isCreatingUser} onClick={handleUserAdd}>+ Add User</Button>
+                { creatingUserError && 'Error Creating User' }
+            </div>
             {content}
-            
-        </div>
+        </>
+    )
 }
 
 export default UsersList;

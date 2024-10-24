@@ -1,26 +1,58 @@
 {
   "users": [
     {
-      "id": "f423",
-      "name": "Tabitha Kozey"
+      "id": "96e8",
+      "name": "Ora Reinger"
     },
     {
-      "id": "dc8d",
-      "name": "Mark Luettgen PhD"
+      "id": "32b6",
+      "name": "Gail McDermott"
     },
     {
-      "id": "e433",
-      "name": "Lisa O'Hara"
+      "id": "71e4",
+      "name": "Billy Mueller"
     },
     {
-      "id": "5881",
-      "name": "Anne Kemmer III"
+      "id": "3bed",
+      "name": "Sylvester Watsica"
     },
     {
-      "id": "0469",
-      "name": "Sophia Rosenbaum"
+      "id": "1441",
+      "name": "Beulah Barrows"
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "id": "8233",
+      "userId": "32b6",
+      "title": "Intelligent Metal Cheese"
+    },
+    {
+      "id": "d8c1",
+      "userId": "96e8",
+      "title": "Recycled Concrete Table"
+    }
+  ],
+  "photos": [
+    {
+      "id": "24e3",
+      "albumId": "d8c1",
+      "url": "https://loremflickr.com/150/150/abstract?lock=33352"
+    },
+    {
+      "id": "f478",
+      "albumId": "d8c1",
+      "url": "https://loremflickr.com/150/150/abstract?lock=63373"
+    },
+    {
+      "id": "68ae",
+      "albumId": "d8c1",
+      "url": "https://loremflickr.com/150/150/abstract?lock=2486"
+    },
+    {
+      "id": "0603",
+      "albumId": "8233",
+      "url": "https://loremflickr.com/150/150/abstract?lock=48812"
+    }
+  ]
 }
